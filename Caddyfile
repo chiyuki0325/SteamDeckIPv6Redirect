@@ -1,0 +1,42 @@
+# Caddyfile
+{
+	# 全局配置（可选）
+	auto_https off
+}
+
+# 定义反向代理规则
+http://cdn-ws.content.steamchina.com:80 {
+	reverse_proxy http://dl.steam.clngaa.com
+}
+
+http://cdn.mileweb.cs.steampowered.com.8686c.com:80 {
+	reverse_proxy http://dl.steam.clngaa.com
+}
+
+http://st.dl.eccdnx.com:80 {
+	reverse_proxy http://dl.steam.clngaa.com
+}
+
+http://st.dl.bscstorage.net:80 {
+	reverse_proxy http://dl.steam.clngaa.com
+}
+
+http://steampipe.steamcontent.tnkjmec.com:80 {
+	reverse_proxy http://dl.steam.clngaa.com
+}
+
+http://cdn-qc.content.steamchina.com:80 {
+	reverse_proxy http://dl.steam.clngaa.com
+}
+
+http://cdn-ali.content.steamchina.com:80 {
+	reverse_proxy http://dl.steam.clngaa.com
+}
+
+http://xz.pphimalayanrt.com:80 {
+	reverse_proxy http://dl.steam.clngaa.com
+}
+
+http://lv.queniujq.cn:80 {
+	reverse_proxy http://dl.steam.clngaa.com
+}
